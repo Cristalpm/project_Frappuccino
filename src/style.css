@@ -1,0 +1,207 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin-top: 3em;       
+}
+
+.phone {
+    margin: auto;
+    width: 400px;
+    height: 800px;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 1px 1px 20px 2px rgba(0, 0, 0, 0.137);
+    background-image: url(../image/pngwing\ 1stakan.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
+    background-position-y: auto ;
+    background-color: rgba(245, 245, 220, 0.24);
+    transition: 1s;
+}
+
+.style-button {
+    height: 45px;
+    width: 45px;
+    border: 2px solid rgba(0, 0, 0, 0.137);
+    border-radius: 6px;
+    background: none;
+    color: rgb(0, 0, 0);
+}
+
+.header {
+    padding-top: 5em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button_back {
+    display: block;
+    font-size: 30px;
+    align-items: center;
+    margin-left: 1em;
+    align-self: center;
+}
+
+.button_icon {
+    height: 4em;
+    width: 4em;
+}
+
+.button_shopping {
+    align-self: center;
+    margin-right: 30px;
+}
+
+.button_shopping img {
+    height: 2.5em;
+    width: 2.5em;
+    margin: auto;
+    padding-top: 4px;
+}
+
+.product_name h1 {
+    text-align: center;
+    margin-top: 0.4em;
+    font-weight: 700;
+}
+
+.product_name p {
+    text-align: center;
+    margin-top: 0.4em;
+    font-weight: 700;
+    color: #00000031;
+}
+
+.product_select {
+    display: flex;
+    justify-content: space-between;
+}
+
+.select_size {
+    display: grid;
+    height: min-content;
+    margin-left: 30px;
+}
+
+.select_size p {
+    text-align: center;
+    padding-bottom: 1em;
+    font-weight: 900;
+}
+
+.select_size button {
+    margin-bottom: 0.5em;
+}
+
+.select_size img {
+    padding-top: 4px;
+}
+
+.select_size_img-1 {
+    width: 20px;
+    height: 20px;
+}
+.select_size_img-2 {
+    width: 25px;
+    height: 25px;
+}
+.select_size_img-3 {
+    width: 30px;
+    height: 30px;
+}
+
+.select_like {
+    margin-right: 30px;
+}
+
+.select_like p {
+    text-align: center;
+    padding-bottom: 1em;
+    font-weight: 900;
+}
+
+.select_like svg {
+    padding-top: 4px;
+    width: 22px;
+    height: 22px;
+}
+
+.product_footer {
+    display: flex;  
+    justify-content: space-between; 
+    margin-top: 60px;
+}
+
+.product_price {
+    margin-left: 30px;
+    margin-top: auto;
+}
+
+.product_price p:first-child {
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.product_price p:last-child {
+    font-size: 10px;
+    color: #00000091;
+    font-weight: 900;
+}
+
+.button_back a {
+    text-decoration: none;
+    color: #000;
+}
+
+.product_swipe {
+    margin-top: auto;
+    font-size: 13px;
+    color: #00000091;
+    font-weight: 900;
+}
+
+.puckup {
+    margin-right: 30px;
+    display: grid;
+    margin-left: 20px;
+}
+
+.puckup button{
+    margin-top: 20px;
+}
+
+.puckup p {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 900;
+    margin-top: 20px ;
+}
+
+.swipe_buy {
+    margin-top: 10px;
+    height: 156px;
+    align-items: center;
+    background-image: url(../image/Group\ 1Buy.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y:1px;
+    transition: 3s;
+    animation-duration: 2s;
+    animation-name: slidein;
+    animation-iteration-count:infinite;
+}
+
+.swipe_buy a {
+    display: block;
+    color: #00000010;
+    text-decoration: none;
+    font-size: 15px;
+    text-align: right;
+    font-weight: 900;
+    padding-top: 170px;
+}

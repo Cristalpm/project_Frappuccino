@@ -1,0 +1,56 @@
+.animation-button {
+transition: 0.7s;
+}
+
+.animation-button:hover {
+    border: none;
+    border-bottom: 2px solid black ;
+}
+
+.animation-button:focus {
+    border: none;
+    border-bottom: 2px solid black ;
+}
+
+.animation-button-aktive {
+    border: none;
+    border-bottom: 2px solid black ;
+}
+
+.size-little {
+    background-size: 50%;
+}
+
+.size-small {
+    background-size: 60%;
+}
+
+.size-big {
+    background-size: 70%;
+}
+
+.select_like svg:hover {
+    fill: #ff0000;
+}
+
+.select_like-1 {
+    fill: #ff0000;
+}
+
+@keyframes slidein {
+    0% {
+        background-position-y: 1px;
+    }
+  
+    50% {
+        background-position-y: 20px;
+    }
+    100% {
+        background-position-y: 1px;
+    }
+  }
+
+.swipe_buy:focus {
+    background-position-y: 110px;
+}
+
